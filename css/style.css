@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'TT Lakes';
-    src: url('/fonts/TTLakes-Regular.ttf') format('truetype');
+    font-family: "TT Lakes";
+    src: url("/fonts/TTLakes-Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
-    font-family: 'TT Lakes';
-    src: url('/fonts/TTLakes-Medium.ttf') format('truetype');
+    font-family: "TT Lakes";
+    src: url("/fonts/TTLakes-Medium.ttf") format("truetype");
     font-style: normal;
     font-weight: 500;
 }
 @font-face {
-    font-family: 'TT Lakes';
-    src: url('/fonts/TTLakes-Bold.ttf') format('truetype');
+    font-family: "TT Lakes";
+    src: url("/fonts/TTLakes-Bold.ttf") format("truetype");
     font-style: normal;
     font-weight: 700;
 }
@@ -23,11 +23,6 @@ body {
     color: #1B1C21; 
 }
 
-p {
-    margin: 0;
-}
-
-
 .header {
     display: flex;
     background-color: #fff;
@@ -36,6 +31,10 @@ p {
     align-items: center;
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.contact-group {
+    list-style-type: none;
 }
 
 .header__contact-group {
@@ -78,7 +77,7 @@ p {
     background-image: url("/images/buttons/checkstatus.svg");
 }
 
-.contact-group__button:not(:last-child) {
+.contact-group__item-list:not(:last-child) {
     margin-right: 16px;
 }
 
@@ -93,25 +92,25 @@ p {
     margin-right: 20px;
 }
 
-.header__divider--first {
+.header__divider:first-of-type {
     display: none;
 }
 
-.form-button-container {
+.repair-bid-container {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
 
-.form-button-container__button {
+.repair-bid-container__button {
     display: block;
 }
 
-.form-button-container__button:not(:last-child) {
+.repair-bid-container__button:not(:last-child) {
     margin-right: 16px;
 }
 
-.form-button-container__text {
+.repair-bid-container__text {
     color: #1B1C21;
     text-align: right;
     font-size: 16px;
@@ -127,7 +126,7 @@ p {
     padding-top: 24px;
 }
 
-.main-content__form-button-container {
+.main-content__repair-bid-container {
     display: none;
     position: relative;
     position: absolute;
@@ -205,6 +204,7 @@ p {
 }
 
 .services__paragraph {
+    margin-top: 0;
     margin-bottom: 16px;
     font-size: 14px;
     font-weight: 400;
@@ -239,11 +239,13 @@ p {
 .services__image-wrapper {
     flex: 1 1 100%;
 }
+
 .services__image {
     text-align: center;
     width: 100%;
     height: auto;
 }
+
 @media (min-width: 768px) {
 
     .header {
@@ -258,7 +260,7 @@ p {
         display: flex;
     }
 
-    .header__divider--first {
+    .header__divider:first-of-type {
         display: block;
     }
     .read-more {
@@ -310,7 +312,7 @@ p {
         padding-top: 42px;
     }
 
-    .main-content__form-button-container {
+    .main-content__repair-bid-container {
         display: flex;
     }
 }

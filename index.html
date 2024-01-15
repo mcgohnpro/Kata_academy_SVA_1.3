@@ -7,7 +7,7 @@
     <meta name="description" content="Опытные специалисты по ремонту компьютеров и компьютерной техники. Качественный и надежный ремонт любых поломок и дефектов.">
     <meta name="keywords" content="Ремонт компьютеров, Ремонт компьютерной техники, Компьютерный сервис, Замена комплектующих, Устранение аппаратных проблем, Восстановление операционной системы, Обслуживание компьютеров, Ремонт ноутбуков, 
     Восстановление данных, Установка программного обеспечения, Консультации по компьютерной технике
-    Обучение использованию компьютеров, Оптимизация работы компьютера, Восстановление сетевых настроек">
+    Обучение использоcontact-groupванию компьютеров, Оптимизация работы компьютера, Восстановление сетевых настроек">
     <title>CPS</title>
     <link rel="stylesheet" href="/css/normilize.css">
     <link rel="stylesheet" href="/css/style.css">
@@ -17,27 +17,27 @@
 <body>
     <header class="header">
         <button class="button button--burger header__button"></button>
-        <div class="divider header__divider header__divider--first"></div>
-        <img class="logo header__logo" src="/images/Group.png" alt="Логотип компании CPS">
-        <div class="contact-group header__contact-group">
-            <button class="button button--call contact-group__button"></button>
-            <button class="button button--chat contact-group__button"></button>
-            <button class="button button--profile contact-group__button"></button>
-        </div>
         <div class="divider header__divider"></div>
-        <div class="form-button-container">
-            <button class="button button--repair form-button-container__button"></button>
-            <button class="button button--check-status form-button-container__button"></button>
+        <img class="logo header__logo" src="/images/Group.png" alt="Логотип компании CPS">
+        <ul class="contact-group header__contact-group">
+            <li class="contact-group__item-list"><button class="button button--call"></button></li>
+            <li class="contact-group__item-list"><button class="button button--chat"></button></li>
+            <li class="contact-group__item-list"><button class="button button--profile"></button></li>
+        </ul>
+        <div class="divider header__divider"></div>
+        <div class="repair-bid-container">
+            <button class="button button--repair repair-bid-container__button"></button>
+            <button class="button button--check-status repair-bid-container__button"></button>
         </div>
     </header>
     <div class="wrapper">
-        <aside class="menu"></aside> <!-- тег для всплывающего бокового меню -->
+        <!-- <aside class="menu"></aside> -->
         <main class="main-content">
-            <div class="form-button-container main-content__form-button-container">
-                <div class="form-button-container__text">Оставить заявку</div>
-                <button class="button button--repair form-button-container__button"></button>
-                <div class="form-button-container__text">Статус ремонта</div>
-                <button class="button button--check-status form-button-container__button"></button>
+            <div class="repair-bid-container main-content__repair-bid-container">
+                <div class="repair-bid-container__text">Оставить заявку</div>
+                <button class="button button--repair repair-bid-container__button"></button>
+                <div class="repair-bid-container__text">Статус ремонта</div>
+                <button class="button button--check-status repair-bid-container__button"></button>
             </div>
             <section class="services">
                 <div class="title services__title">
