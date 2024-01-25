@@ -1,19 +1,19 @@
 @font-face {
     font-family: "TT Lakes";
-    src: url("/fonts/TTLakes-Regular.ttf") format("truetype");
+    src: url("../fonts/TTLakes-Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: "TT Lakes";
-    src: url("/fonts/TTLakes-Medium.ttf") format("truetype");
+    src: url("../fonts/TTLakes-Medium.ttf") format("truetype");
     font-style: normal;
     font-weight: 500;
 }
 @font-face {
     font-family: "TT Lakes";
-    src: url("/fonts/TTLakes-Bold.ttf") format("truetype");
+    src: url("../fonts/TTLakes-Bold.ttf") format("truetype");
     font-style: normal;
     font-weight: 700;
 }
@@ -59,22 +59,22 @@ body {
     border: none;  
 }
 .button--burger {
-    background-image: url("/images/buttons/burger.svg");
+    background-image: url("../images/buttons/burger.svg");
 }
 .button--call {
-    background-image: url("/images/buttons/call.svg");
+    background-image: url("../images/buttons/call.svg");
 }
 .button--chat {
-    background-image: url("/images/buttons/chat.svg");
+    background-image: url("../images/buttons/chat.svg");
 }
 .button--profile {
-    background-image: url("/images/buttons/profile.svg");
+    background-image: url("../images/buttons/profile.svg");
 }
 .button--repair {
-    background-image: url("/images/buttons/repair.svg");
+    background-image: url("../images/buttons/repair.svg");
 }
 .button--check-status {
-    background-image: url("/images/buttons/checkstatus.svg");
+    background-image: url("../images/buttons/checkstatus.svg");
 }
 
 .contact-group__item-list:not(:last-child) {
@@ -143,7 +143,7 @@ body {
 .title__decore {
     width: 4px;
     height: 40px; 
-    background-image: url("/images/highlight.svg");
+    background-image: url("../images/highlight.svg");
 }
 
 .title__text {
@@ -223,7 +223,7 @@ body {
 .read-more__decore{
     width: 24px;
     height: 24px; 
-    background-image: url("/images/expand.svg");
+    background-image: url("../images/expand.svg");
 }
 
 .read-more__button {
