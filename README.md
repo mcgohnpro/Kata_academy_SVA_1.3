@@ -1,1 +1,1 @@
-https://mcgohnpro.github.io
+https://mcgohnpro.github.io/Kata_academy_SVA_1.3/
